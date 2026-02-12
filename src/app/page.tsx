@@ -23,7 +23,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 max-w-4xl p-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-headline font-bold mb-4 animate-fade-in-down">
-            Timeless Leather. Defined by Legacy.
+            Timeless Leather. Crafted to Last.
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 animate-fade-in-up">
             Experience the pinnacle of craftsmanship with our collection of premium, handcrafted leather goods designed to last a lifetime and beyond.
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-headline font-bold mb-4">
-                A Heritage of Craft
+                Our Heritage & Craft
               </h2>
               <p className="text-lg mb-6">
                 Legacy Leather was born from a passion for timeless design and uncompromising quality. Our story is one of dedication to the art of leatherwork, passed down through generations.

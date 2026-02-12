@@ -29,7 +29,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-headline font-bold mb-6">The Art of Craftsmanship</h2>
-            <div className="space-y-4 text-lg text-foreground/80">
+            <div className="space-y-6 text-lg text-foreground/80">
               <p>
                 Our journey begins with the selection of the world's finest hides. Each piece of leather is chosen for its unique character, durability, and beauty. We partner with tanneries that share our commitment to sustainable and ethical practices, ensuring that every product begins with a foundation of integrity.
               </p>
