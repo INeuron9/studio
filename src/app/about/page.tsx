@@ -16,7 +16,7 @@ export default function AboutPage() {
 
       <div className="relative h-80 md:h-[60vh] w-full">
         <Image
-          src="https://picsum.photos/seed/about-hero/1920/1080"
+          src="https://images.unsplash.com/photo-1512428208352-22d1c252d3d8?w=1920&h=1080&fit=crop&q=80"
           alt="Panoramic view of a traditional leather tannery"
           fill
           className="object-cover"
@@ -39,7 +39,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-96 w-full rounded-md overflow-hidden">
             <Image
-              src="https://picsum.photos/seed/craft-detail/800/1000"
+              src="https://images.unsplash.com/photo-1559563459-7d8a9a2b5e43?w=800&h=1000&fit=crop&q=80"
               alt="Close-up of hands stitching leather"
               fill
               className="object-cover"
