@@ -11,14 +11,14 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-secondary-foreground">
+    <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Link href="/" className="mb-4 inline-block">
-              <Logo className="h-8 w-auto text-secondary-foreground" />
+              <Logo className="h-8 w-auto text-primary-foreground" />
             </Link>
-            <p className="text-sm text-secondary-foreground/80">
+            <p className="text-sm text-primary-foreground/80">
               Timeless Leather. Defined by Legacy. Premium handcrafted goods for a life well-lived.
             </p>
           </div>
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="font-headline font-semibold mb-4">Follow Us</h3>
-            <p className="text-sm text-secondary-foreground/80 mb-4">
+            <p className="text-sm text-primary-foreground/80 mb-4">
               Join our community and stay updated on new arrivals.
             </p>
             <div className="flex space-x-4">
@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-8 border-t border-secondary-foreground/10 pt-6 text-center text-sm text-secondary-foreground/60">
+        <div className="mt-8 border-t border-primary-foreground/10 pt-6 text-center text-sm text-primary-foreground/60">
           <p>&copy; {new Date().getFullYear()} Legacy Leather. All Rights Reserved.</p>
         </div>
       </div>
