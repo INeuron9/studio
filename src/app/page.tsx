@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { products } from '@/lib/data';
 import ProductCard from '@/components/product-card';
 import { ArrowRight } from 'lucide-react';
-import imageData from '@/app/lib/placeholder-images.json';
+import imageData from './lib/placeholder-images.json';
 
 export default function Home() {
   const featuredProducts = products.slice(0, 3);

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import imageData from '@/app/lib/placeholder-images.json';
+import imageData from '../lib/placeholder-images.json';
 
 export default function AboutPage() {
   return (
