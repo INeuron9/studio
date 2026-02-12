@@ -1,35 +1,35 @@
 {
-  "home_hero": "https://images.unsplash.com/photo-1587817943187-935b0d06588a?w=1800&h=1200&fit=crop&q=80",
-  "home_craft": "https://images.unsplash.com/photo-1543943343-24781c16b5e8?w=800&h=600&fit=crop&q=80",
-  "about_hero": "https://images.unsplash.com/photo-1543943343-24781c16b5e8?w=1920&h=1080&fit=crop&q=80",
-  "about_stitching": "https://images.unsplash.com/photo-1620625515032-6ed0a1790425?w=800&h=1000&fit=crop&q=80",
+  "home_hero": "/images/marcin-kempa-cjUxiJoVzc0-unsplash.jpg",
+  "home_craft": "/images/mason-supply-oNJ_k0qcdJg-unsplash.jpg",
+  "about_hero": "/images/neil-wallace-eTCogYz7kQE-unsplash.jpg",
+  "about_stitching": "/images/wiser-by-the-mile-it91asJ01mE-unsplash.jpg",
   "products": {
     "artisan-leather-jacket": [
-      "https://unsplash.com/photos/a-pair-of-shoes-a-wallet-and-a-belt-laid-out-on-a-table-cjUxiJoVzc0?w=800&h=1000&fit=crop&q=80",
-      "https://unsplash.com/photos/a-pair-of-shoes-a-wallet-and-a-belt-laid-out-on-a-table-cjUxiJoVzc0?w=800&h=1000&fit=crop&q=80",
-      "https://unsplash.com/photos/a-pair-of-shoes-a-wallet-and-a-belt-laid-out-on-a-table-cjUxiJoVzc0?w=800&h=1000&fit=crop&q=80"
+      "/images/yearone-1vyT0nfGK3k-unsplash.jpg",
+      "/images/marcin-kempa-cjUxiJoVzc0-unsplash.jpg",
+      "/images/neil-wallace-eTCogYz7kQE-unsplash.jpg"
     ],
     "heritage-leather-wallet": [
-      "https://unsplash.com/photos/a-person-holding-a-cell-phone-in-their-hand-oNJ_k0qcdJg?w=800&h=1000&fit=crop&q=80",
-      "https://unsplash.com/photos/a-person-holding-a-cell-phone-in-their-hand-oNJ_k0qcdJg?w=800&h=1000&fit=crop&q=80"
+      "/images/mason-supply-oNJ_k0qcdJg-unsplash.jpg",
+      "/images/wiser-by-the-mile-it91asJ01mE-unsplash.jpg"
     ],
     "classic-brogue-shoes": [
-      "https://images.unsplash.com/photo-1616422894498-854c862a9a7a?w=800&h=1000&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1620625515032-6ed0a1790425?w=800&h=1000&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1616422894498-854c862a9a7a?w=800&h=1000&fit=crop&q=80"
+      "/images/neil-wallace-eTCogYz7kQE-unsplash.jpg",
+      "/images/yearone-1vyT0nfGK3k-unsplash.jpg",
+      "/images/marcin-kempa-cjUxiJoVzc0-unsplash.jpg"
     ],
     "timeless-leather-belt": [
-      "https://images.unsplash.com/photo-1620625515032-6ed0a1790425?w=800&h=1000&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1620625515032-6ed0a1790425?w=800&h=1000&fit=crop&q=80"
+      "/images/wiser-by-the-mile-it91asJ01mE-unsplash.jpg",
+      "/images/mason-supply-oNJ_k0qcdJg-unsplash.jpg"
     ],
     "womens-rider-jacket": [
-      "https://images.unsplash.com/photo-1517088913951-c03a11a47385?w=800&h=1000&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1517088913951-c03a11a47385?w=800&h=1000&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1517088913951-c03a11a47385?w=800&h=1000&fit=crop&q=80"
+      "/images/marcin-kempa-cjUxiJoVzc0-unsplash.jpg",
+      "/images/yearone-1vyT0nfGK3k-unsplash.jpg",
+      "/images/neil-wallace-eTCogYz7kQE-unsplash.jpg"
     ],
     "minimalist-cardholder": [
-      "https://images.unsplash.com/photo-1625078426038-25f396458c32?w=800&h=1000&fit=crop&q=80",
-      "https://images.unsplash.com/photo-1625078426038-25f396458c32?w=800&h=1000&fit=crop&q=80"
+      "/images/mason-supply-oNJ_k0qcdJg-unsplash.jpg",
+      "/images/wiser-by-the-mile-it91asJ01mE-unsplash.jpg"
     ]
   }
 }
