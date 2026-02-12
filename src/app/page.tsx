@@ -4,14 +4,14 @@ import { Button } from '@/components/ui/button';
 import { products } from '@/lib/data';
 import ProductCard from '@/components/product-card';
 import { ArrowRight } from 'lucide-react';
-import imageData from './lib/placeholder-images.json';
+import imageData from '@/app/lib/placeholder-images.json';
 
 export default function Home() {
-  const featuredProducts = products.slice(0, 3);
+  const featuredProducts = products.slice(0, 4);
 
   return (
     <div className="flex flex-col">
-      <section className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center text-center text-primary-foreground">
+      <section className="relative h-[70vh] md:h-[90vh] w-full flex items-center justify-center text-center text-primary-foreground">
         <Image
           src={imageData.home_hero}
           alt="Vintage leather workshop"
@@ -20,7 +20,7 @@ export default function Home() {
           priority
           data-ai-hint="vintage workshop"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 max-w-4xl p-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-headline font-bold mb-4 animate-fade-in-down">
             Timeless Leather. Crafted to Last.
@@ -36,17 +36,22 @@ export default function Home() {
 
       <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-headline font-bold text-center mb-12">
-            Featured Collection
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold">
+              Featured Collection
+            </h2>
+            <p className="text-lg text-muted-foreground mt-2">
+              Discover our curated selection of handcrafted leather goods, designed for a life of elegance and purpose.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {featuredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
           <div className="text-center mt-12">
             <Button asChild variant="outline" size="lg">
-              <Link href="/shop">Explore All Products</Link>
+              <Link href="/shop">Explore The Full Collection</Link>
             </Button>
           </div>
         </div>
@@ -54,8 +59,8 @@ export default function Home() {
 
       <section className="bg-secondary text-secondary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-80 md:h-full w-full rounded-md overflow-hidden">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="relative h-96 md:h-[60vh] w-full rounded-md overflow-hidden">
                <Image
                 src={imageData.home_craft}
                 alt="Craftsman working on leather"
@@ -65,17 +70,17 @@ export default function Home() {
               />
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-headline font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-headline font-bold mb-6">
                 Our Heritage & Craft
               </h2>
-              <p className="text-lg mb-6">
+              <p className="text-xl mb-6 text-secondary-foreground/80">
                 Legacy Leather was born from a passion for timeless design and uncompromising quality. Our story is one of dedication to the art of leatherwork, passed down through generations.
               </p>
-              <p className="mb-8">
+              <p className="text-xl mb-8 text-secondary-foreground/80">
                 Each piece is a testament to our commitment, a blend of traditional techniques and modern sensibilities. We don't just sell products; we offer heirlooms.
               </p>
-              <Button asChild size="lg">
-                <Link href="/about">Our Story</Link>
+              <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+                <Link href="/about">Discover Our Story</Link>
               </Button>
             </div>
           </div>
