@@ -1,4 +1,5 @@
 import type { Product } from './types';
+import imageData from '@/app/lib/placeholder-images.json';
 
 export const products: Product[] = [
   {
@@ -7,11 +8,7 @@ export const products: Product[] = [
     description: 'A timeless statement piece, crafted for the modern pioneer.',
     longDescription: 'The Artisan Leather Jacket is the cornerstone of any discerning wardrobe. Made from supple, full-grain calfskin that ages beautifully, this jacket develops a unique patina over time. It features a classic silhouette, robust hardware, and a satin-lined interior for ultimate comfort. Designed for versatility, it transitions effortlessly from city streets to open roads.',
     price: 699.99,
-    images: [
-      'https://images.unsplash.com/photo-1551028719-00167b16e2d9?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1611644383345-56066271a3c7?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=800&h=1000&fit=crop&q=80',
-    ],
+    images: imageData.products['artisan-leather-jacket'],
     category: 'Jackets',
     sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     materials: '100% Full-Grain Calfskin Leather, Satin Lining, Polished Nickel Hardware',
@@ -23,10 +20,7 @@ export const products: Product[] = [
     description: 'Elegance in hand. A wallet that carries your legacy.',
     longDescription: 'Our Heritage Wallet is a masterpiece of minimalist design and superior craftsmanship. Constructed from a single piece of vegetable-tanned bridle leather, it is stitched by hand for unparalleled durability. With six card slots and a full-length bill compartment, it organizes your essentials with refined simplicity. This is a wallet designed not just to hold currency, but to gain character with every use.',
     price: 129.99,
-    images: [
-      'https://images.unsplash.com/photo-1620625515032-6ed0a1790425?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1619118399583-16a73a5f4333?w=800&h=1000&fit=crop&q=80',
-    ],
+    images: imageData.products['heritage-leather-wallet'],
     category: 'Wallets',
     materials: 'Vegetable-Tanned Bridle Leather, Waxed Linen Thread',
     imageHints: ['leather wallet', 'minimalist accessory'],
@@ -37,11 +31,7 @@ export const products: Product[] = [
     description: 'The foundation of a gentleman\'s style, built to last.',
     longDescription: 'Step into a tradition of excellence with our Classic Brogue Shoes. Featuring intricate perforations and a sturdy Goodyear welt construction, these shoes are the epitome of sartorial elegance. The premium French calf leather upper is polished to a rich shine, while the stacked leather heel provides stability and a confident stride. Perfect for both formal occasions and elevating everyday wear.',
     price: 459.99,
-    images: [
-      'https://images.unsplash.com/photo-1599309412496-5b94cf75640f?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1608256247964-443b7e4125f1?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1528642872421-479a08a2a75c?w=800&h=1000&fit=crop&q=80',
-    ],
+    images: imageData.products['classic-brogue-shoes'],
     category: 'Shoes',
     sizes: ['8', '9', '10', '11', '12', '13'],
     materials: 'French Calf Leather, Oak Bark Tanned Leather Sole, Goodyear Welt Construction',
@@ -53,10 +43,7 @@ export const products: Product[] = [
     description: 'The finishing touch. A belt that binds your style together.',
     longDescription: 'The Timeless Leather Belt is an essential accessory, crafted with the same attention to detail as our flagship products. Made from robust harness leather and fitted with a solid brass or nickel buckle, it provides a secure and comfortable fit. Its clean, unembellished design ensures it will complement any outfit, from casual denim to tailored trousers, for years to come.',
     price: 99.99,
-    images: [
-      'https://images.unsplash.com/photo-1542295427-463a568a41c1?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1618423275683-b921d2ed9590?w=800&h=1000&fit=crop&q=80',
-    ],
+    images: imageData.products['timeless-leather-belt'],
     category: 'Belts',
     sizes: ['30', '32', '34', '36', '38', '40'],
     materials: 'English Harness Leather, Solid Brass or Nickel Buckle',
@@ -68,11 +55,7 @@ export const products: Product[] = [
     description: 'Effortless edge meets timeless sophistication.',
     longDescription: 'The Women\'s Rider Jacket is a modern classic, reimagined with a feminine silhouette. Crafted from butter-soft lambskin, it features an asymmetrical zip, quilted shoulder panels, and a tailored fit that flatters the form. This jacket is a symbol of quiet confidence, a versatile piece that adds a touch of rebellion to any ensemble.',
     price: 649.99,
-    images: [
-      'https://images.unsplash.com/photo-1517676638942-8d3b4b2f8a48?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1594509594314-177b94155f9b?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1517997934078-7b9a52df71f4?w=800&h=1000&fit=crop&q=80',
-    ],
+    images: imageData.products['womens-rider-jacket'],
     category: 'Jackets',
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
     materials: '100% Lambskin Leather, Viscose Lining, Polished Custom Hardware',
@@ -84,10 +67,7 @@ export const products: Product[] = [
     description: 'For the essentialist. Carry only what you need, in style.',
     longDescription: 'Streamline your pocket with the Minimalist Cardholder. This sleek accessory is designed for efficiency, with four exterior slots and a central compartment for folded notes. Crafted from resilient Italian Saffiano leather, it resists scratches and wear while maintaining a sophisticated appearance. It is the perfect companion for the modern individual who values both form and function.',
     price: 89.99,
-    images: [
-      'https://images.unsplash.com/photo-1555462529-53a4d6411963?w=800&h=1000&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1615022325900-a4e99499427e?w=800&h=1000&fit=crop&q=80',
-    ],
+    images: imageData.products['minimalist-cardholder'],
     category: 'Wallets',
     materials: 'Italian Saffiano Leather, High-Tenacity Nylon Thread',
     imageHints: ['card holder', 'leather accessory'],

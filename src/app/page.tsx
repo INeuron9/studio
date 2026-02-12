@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { products } from '@/lib/data';
 import ProductCard from '@/components/product-card';
 import { ArrowRight } from 'lucide-react';
+import imageData from '@/app/lib/placeholder-images.json';
 
 export default function Home() {
   const featuredProducts = products.slice(0, 3);
@@ -12,7 +13,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center text-center text-primary-foreground">
         <Image
-          src="https://images.unsplash.com/photo-1446214814724-c277969634b4?w=1800&h=1200&fit=crop&q=80"
+          src={imageData.home_hero}
           alt="Vintage leather workshop"
           fill
           className="object-cover"
@@ -56,7 +57,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-80 md:h-full w-full rounded-md overflow-hidden">
                <Image
-                src="https://images.unsplash.com/photo-1543943343-24781c16b5e8?w=800&h=600&fit=crop&q=80"
+                src={imageData.home_craft}
                 alt="Craftsman working on leather"
                 fill
                 className="object-cover"

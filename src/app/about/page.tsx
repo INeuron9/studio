@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import imageData from '@/app/lib/placeholder-images.json';
 
 export default function AboutPage() {
   return (
@@ -16,7 +17,7 @@ export default function AboutPage() {
 
       <div className="relative h-80 md:h-[60vh] w-full">
         <Image
-          src="https://images.unsplash.com/photo-1512428208352-22d1c252d3d8?w=1920&h=1080&fit=crop&q=80"
+          src={imageData.about_hero}
           alt="Panoramic view of a traditional leather tannery"
           fill
           className="object-cover"
@@ -39,7 +40,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-96 w-full rounded-md overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1559563459-7d8a9a2b5e43?w=800&h=1000&fit=crop&q=80"
+              src={imageData.about_stitching}
               alt="Close-up of hands stitching leather"
               fill
               className="object-cover"

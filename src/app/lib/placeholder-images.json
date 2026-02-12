@@ -1,0 +1,35 @@
+{
+  "home_hero": "https://images.unsplash.com/photo-1446214814724-c277969634b4?w=1800&h=1200&fit=crop&q=80",
+  "home_craft": "https://images.unsplash.com/photo-1543943343-24781c16b5e8?w=800&h=600&fit=crop&q=80",
+  "about_hero": "https://images.unsplash.com/photo-1512428208352-22d1c252d3d8?w=1920&h=1080&fit=crop&q=80",
+  "about_stitching": "https://images.unsplash.com/photo-1559563459-7d8a9a2b5e43?w=800&h=1000&fit=crop&q=80",
+  "products": {
+    "artisan-leather-jacket": [
+      "https://images.unsplash.com/photo-1551028719-00167b16e2d9?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1611644383345-56066271a3c7?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=800&h=1000&fit=crop&q=80"
+    ],
+    "heritage-leather-wallet": [
+      "https://images.unsplash.com/photo-1620625515032-6ed0a1790425?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1619118399583-16a73a5f4333?w=800&h=1000&fit=crop&q=80"
+    ],
+    "classic-brogue-shoes": [
+      "https://images.unsplash.com/photo-1599309412496-5b94cf75640f?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1608256247964-443b7e4125f1?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1528642872421-479a08a2a75c?w=800&h=1000&fit=crop&q=80"
+    ],
+    "timeless-leather-belt": [
+      "https://images.unsplash.com/photo-1542295427-463a568a41c1?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1618423275683-b921d2ed9590?w=800&h=1000&fit=crop&q=80"
+    ],
+    "womens-rider-jacket": [
+      "https://images.unsplash.com/photo-1517676638942-8d3b4b2f8a48?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1594509594314-177b94155f9b?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1517997934078-7b9a52df71f4?w=800&h=1000&fit=crop&q=80"
+    ],
+    "minimalist-cardholder": [
+      "https://images.unsplash.com/photo-1555462529-53a4d6411963?w=800&h=1000&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1615022325900-a4e99499427e?w=800&h=1000&fit=crop&q=80"
+    ]
+  }
+}
